@@ -2,3 +2,6 @@
 .idea/
 build/
 local.properties
+release/github-meta.txt
+release/*.zip
+libs/
