@@ -1,10 +1,11 @@
-# Godot Facebook 18.1.3 SDK
-[![Godot](https://img.shields.io/badge/Godot%20Engine-3.6.2-blue?style=for-the-badge&logo=godotengine&logoSize=auto)](https://godotengine.org/)
+# Godot Facebook 18.2.3 SDK
 [![Facebook SDK](https://img.shields.io/badge/Facebook_SDK-blue?style=for-the-badge&logoSize=auto)](https://developers.facebook.com/docs/android/)
+[![Godot](https://img.shields.io/badge/Godot%20Engine-3.6.2-blue?style=for-the-badge&logo=godotengine&logoSize=auto)](https://godotengine.org/)
+[![Godot](https://img.shields.io/badge/Godot%20Engine-4.6.1-blue?style=for-the-badge&logo=godotengine&logoSize=auto)](https://godotengine.org/)
 [![GitHub License](https://img.shields.io/github/license/damnedpie/godot-facebook?style=for-the-badge)](https://github.com/damnedpie/godot-facebook/blob/main/LICENSE)
 [![GitHub Repo stars](https://img.shields.io/github/stars/damnedpie/godot-facebook?style=for-the-badge&logo=github&logoSize=auto&color=%23FFD700)](https://github.com/damnedpie/godot-facebook/stargazers)
 
-Facebook SDK Android plugin for Godot. Built on Godot 3.6.2 dependency.
+Facebook SDK Android plugin for Godot. Built on Godot 3.6.2 / Godot 4.6.1 dependency.
 
 ## Author's note
 
@@ -14,6 +15,6 @@ Facebook SDK Android plugin for Godot. Built on Godot 3.6.2 dependency.
 
 ### Project integration
 
-Grab the``GodotFacebook`` plugin binary (.aar) and config (.gdap) from the releases page and put both into ``res://android/plugins``. For easy start, you can also use ``GodotFacebook.gd`` script as an autoload.
+Grab the``GodotFacebook`` plugin binary (.aar) and config (.gdap) from `godot3` or `godot4` folder and put both into ``res://android/plugins``. For easy start, you can also use ``GodotFacebook.gd`` script as an autoload.
 
 Make sure that you add your Facebook App ID and Facebook Client Token to your app manifest as per the [original documentation by Facebook.](https://developers.facebook.com/docs/android/getting-started/)
